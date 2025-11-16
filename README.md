@@ -1,14 +1,14 @@
 <h1>ExpNo 9: Solve Wumpus World Problem using Python demonstrating Inferences from Propositional Logic</h1> 
-<h3>Name: P.Aditya Naga Sai                     </h3>
-<h3>Register Number/Staff Id: 212223110036               </h3>
+<h3>Name: P.Aditya Naga Sai              </h3>
+<h3>Register Number/Staff Id:  212223110036              </h3>
 <H3>Aim:</H3>
 <p>
     To solve  Wumpus World Problem using Python demonstrating Inferences from Propositional Logic
 </p>
-<h2>Problem Description</h2>
-
-<h3>Wumpus World</h3>
-
+<h1>Problem Description</h1>
+<hr>
+<h2>Wumpus World</h2>
+<hr>
 The Wumpus world is a simple world example to illustrate the worth of a knowledge-based agent and to represent knowledge representation.
 
 The figure below shows a Wumpus world containing one pit and one Wumpus. There is an agent in room [1,1]. The goal of the agent is to exit the Wumpus world alive. The agent can exit the Wumpus world by reaching room [4,4]. The wumpus world contains exactly one Wumpus and one pit. There will be a breeze in the rooms adjacent to the pit, and there will be a stench in the rooms adjacent to Wumpus.
@@ -22,17 +22,8 @@ This is a python program that uses propositional logic sentences to check which 
 It is assumed that there will always be a safe path that the agent can take to exit the Wumpus world. The logical agent can take four actions: Up, Down, Left and Right. These actions help the agent move from one room to an adjacent room. The agent can perceive two things: Breeze and Stench.
 </p>
 
-
-<h2>Sample Input and Output:</h2>
-
-
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8696111a-a4a7-47cb-ba4b-43a4ef88573f)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/4be5bf06-79fa-4fa0-9334-38a33f06060b)
-
-<h2>Program:</h2>
-
+# PROGRAM
 ```
-
 wumpus=[["Save","Breeze","PIT","Breeze"],
         ["Smell","Save","Breeze","Save"],
         ["WUMPUS","GOLD","PIT","Breeze"],
@@ -143,13 +134,20 @@ while(player):
         score-=1000
         print("Ahhhhh!!!!\nYou fell in pit.\nAnd your score is: ",score,"\n")
         break
-
 ```
-<h2>Output:</h2>
-
-<img width="686" height="559" alt="image" src="https://github.com/user-attachments/assets/b36540b2-e2c5-4d3e-8a0f-6619a137e91e" />
 
 
-<h2>Result:</h2>
+<hr>
+<h1>Sample Input and Output:</h1>
+<hr>
 
-Thus to solve Wumpus World Problem using Python for demonstrating Inferences from Propositional Logic is done successfully.
+![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8696111a-a4a7-47cb-ba4b-43a4ef88573f)
+![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/4be5bf06-79fa-4fa0-9334-38a33f06060b)
+
+# OUTPUT
+
+<img width="881" height="710" alt="Screenshot 2025-10-30 140320" src="https://github.com/user-attachments/assets/82066abf-0481-49b7-89a0-4e75db422d22" />
+
+
+# RESULT
+Therefore, Wumpus World Problem using Python demonstrating Inferences from Propositional Logic solved successfully.
